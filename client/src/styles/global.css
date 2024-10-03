@@ -1,0 +1,25 @@
+/* src/styles/global.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/example.jpg') no-repeat center center fixed; /* Cambia 'background.jpg' por el nombre de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    color: #333; /* Color de texto general */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #FF5733; /* Color para todos los encabezados */
+  }
+  
+  /* Estilo para botones globales */
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Puedes agregar más estilos globales aquí */
+  
